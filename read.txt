@@ -1,0 +1,14 @@
+1. 회원가입
+스프링 시큐리티 설정 추가
+SecurityConfig 클래스 작성                                         (SecurityConfig.java)
+일반유전지, 관리자인지 구분할 Role 생성                              (Role.java)
+가입정보를 담을 MemberFormDto 생성                                 (MemberFormDto.java)
+Member 엔티티 생성                                               (Member.java)
+Member 엔티티를 데이터베이스에 저장할 수 있도록 MemberRepository 생성 (MemberRepository.java)
+MemberService 클래스 생성                                        (MemberService.java)
+test 코드 작성                                                  (MemberServiceTest.java)
+MemberController 생성                                         (MemberController.java)
+회원가입 폼 생성                                                   (MemberForm.html)
+회원가입 처리를 위해 validation 의존성 추가
+유효성 검증할 클래스의 필드에 어노테이션 선언
+
